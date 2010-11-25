@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SISTEMA DE GESTION</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="height: 100px">
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+    </div>
+        
+            <asp:Button ID="Button1" runat="server" Text="Default 1!" BackColor="#CCCCFF" 
+                BorderColor="#0000CC" BorderStyle="Groove" Font-Bold="True" 
+                Font-Size="Medium" PostBackUrl="~/Default.aspx" />
+            <asp:Button ID="Button2" runat="server" Text="Default 2!" BackColor="#CCCCFF" 
+                BorderColor="#0000CC" BorderStyle="Groove" Font-Bold="True" 
+                Font-Size="Medium" PostBackUrl="~/Default2.aspx" />
+    </form>
+</body>
+</html>
