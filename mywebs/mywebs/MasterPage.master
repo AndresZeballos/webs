@@ -11,11 +11,6 @@
 <body style="height: 100px">
     <form id="form1" runat="server">
     <div>
-        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-        <br />
-    </div>
         
             <asp:Button ID="Button1" runat="server" Text="Default 1!" BackColor="#CCCCFF" 
                 BorderColor="#0000CC" BorderStyle="Groove" Font-Bold="True" 
@@ -23,6 +18,17 @@
             <asp:Button ID="Button2" runat="server" Text="Default 2!" BackColor="#CCCCFF" 
                 BorderColor="#0000CC" BorderStyle="Groove" Font-Bold="True" 
                 Font-Size="Medium" PostBackUrl="~/Default2.aspx" />
+        <br />
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+        Produced by AM Team<br />
+    </div>
+        
     </form>
+    <h1>
+        Y esto???</h1>
 </body>
 </html>
