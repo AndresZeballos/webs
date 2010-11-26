@@ -12,17 +12,26 @@
     <form id="form1" runat="server">
     <div>
         
+            Sistema de Gestión<br />
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
             <asp:Button ID="Button1" runat="server" Text="Default 1!" BackColor="#CCCCFF" 
                 BorderColor="#0000CC" BorderStyle="Groove" Font-Bold="True" 
-                Font-Size="Medium" PostBackUrl="~/Default.aspx" />
+                Font-Size="Medium" PostBackUrl="~/Default.aspx" Height="20px" 
+                Width="250px" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button2" runat="server" Text="Default 2!" BackColor="#CCCCFF" 
                 BorderColor="#0000CC" BorderStyle="Groove" Font-Bold="True" 
-                Font-Size="Medium" PostBackUrl="~/Default2.aspx" />
-        <br />
+                Font-Size="Medium" PostBackUrl="~/Default2.aspx" Height="20px" 
+                Width="250px" />
+            <br />
+            <br />
+            Página cargada:<br />
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
-        <br />
+            Fin de página cargada.<br />
         <br />
         Produced by AM Team<br />
     </div>
