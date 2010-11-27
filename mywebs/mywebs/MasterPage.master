@@ -10,10 +10,10 @@
 </head>
 <body style="height: 100px">
     <form id="form1" runat="server">
-    <div style="background-color: #00FFFF">
+    <div style="background-color: #80FFFF">
         
             Sistema de Gestión<br />
-            <br />
+            <hr style="color: #000000" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         
             <asp:Button ID="Button1" runat="server" Text="Default 1!" BackColor="#CCCCFF" 
@@ -26,7 +26,7 @@
                 Font-Size="Medium" PostBackUrl="~/Default2.aspx" Height="20px" 
                 Width="250px" />
             <br />
-            <br />
+            <hr style="color: #000000" />
             Página cargada:<br />
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
