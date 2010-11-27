@@ -2,12 +2,12 @@
 
 <asp:Content ID="Content1" runat="server" 
     contentplaceholderid="ContentPlaceHolder1">
-    <p style="background-color: #FFFFFF">
-        CUSTOM CONTENT</p>
-    <p style="background-color: #FFFFFF">
-        &nbsp;</p>
-    <p style="background-color: #FFFFFF">
-        DEFAULT 1!</p>
+    <div style="background-color: #FFFFFF">
+        CUSTOM CONTENT</div>
+    <div style="background-color: #FFFFFF">
+        </div>
+    <div style="background-color: #FFFFFF">
+        DEFAULT 1!</div>
     </asp:Content>
 
 

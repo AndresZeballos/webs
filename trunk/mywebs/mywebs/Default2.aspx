@@ -3,11 +3,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-    <p style="background-color: #CCFF99">
-        CUSTOM CONTENT</p>
-    <p style="background-color: #CCFF99">
-        &nbsp;</p>
-    <p style="background-color: #CCFF99">
-        DEFAULT 2!</p>
+    <div style="background-color: #CCFF99">
+        CUSTOM CONTENT</div>
+    <div style="background-color: #CCFF99">
+        &nbsp;</div>
+    <div style="background-color: #CCFF99">
+        DEFAULT 2!</div>
     </asp:Content>
 
