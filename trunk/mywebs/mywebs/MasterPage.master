@@ -10,7 +10,7 @@
 </head>
 <body style="height: 100px">
     <form id="form1" runat="server">
-    <div>
+    <div style="background-color: #00FFFF">
         
             Sistema de Gestión<br />
             <br />
@@ -37,7 +37,7 @@
     </div>
         
     </form>
-    <h1>
+    <h1 style="background-color: #00FF00">
         Y esto???</h1>
 </body>
 </html>
