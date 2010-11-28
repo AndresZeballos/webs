@@ -6,7 +6,7 @@
     <div style="background-color: #CCFF99">
         CUSTOM CONTENT</div>
     <div style="background-color: #CCFF99">
-        &nbsp;</div>
+        </div>
     <div style="background-color: #CCFF99">
         DEFAULT 2!</div>
     </asp:Content>
