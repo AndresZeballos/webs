@@ -33,11 +33,21 @@
         </asp:ContentPlaceHolder>
             Fin de página cargada.<br />
         <br />
-        Produced by AM Team<br />
+        Produced by KBZA &amp; Company<br />
     </div>
         
     </form>
     <h1 style="background-color: #00FF00">
         Y esto???</h1>
+    <h2>
+        Esto es</h2>
+    <h3>
+        el final</h3>
+    <h4>
+        de la</h4>
+    <h5>
+        página</h5>
+    <h6>
+        Y nada más</h6>
 </body>
 </html>
