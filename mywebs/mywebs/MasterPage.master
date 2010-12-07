@@ -6,6 +6,7 @@
 <head runat="server">
     <title>SISTEMA DE GESTION</title>
     <asp:ContentPlaceHolder id="head" runat="server">
+
     </asp:ContentPlaceHolder>
 </head>
 <body style="height: 100px">
